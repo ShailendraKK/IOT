@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MoistureSensor"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/pairedlist1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.34"
+        android:weightSum="1">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:id="@+id/btn_moist"
+        android:text="Moisture Status"
+        android:layout_weight="0.21" />
+                <TextView
+                android:id="@+id/status1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.22"
+        android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:id="@+id/btn_moist_1"
+        android:text="Get Sensor Value"
+        android:layout_weight="0.22" />
+    <TextView
+        android:id="@+id/status1_1"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
